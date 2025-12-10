@@ -18,7 +18,7 @@ namespace Crosshair
         private void LoadCrosshair()
         {
             // Crear un BitmapImage desde los recursos
-            var crosshairImage = new BitmapImage(new Uri("ms-appx:///Assets/Crosshair2.png"));
+            var crosshairImage = new BitmapImage(new Uri("ms-appx:///Assets/Crosshair7.png"));
 
             // Asignar la imagen al control Image en la UI
             CrosshairImage.Source = crosshairImage;
